@@ -5,12 +5,12 @@ Created during the event "Semana Super Full Stack" (Super Full Stack Week) from 
 
 ## Back end
 
-Develop using Ruby on Rails with SQLite as the database management system
+Developed using Ruby on Rails with SQLite as the database management system
 
-### Version
+### Versions
 
--Ruby 2.7.1
--Rails 6.0.2.2
+* Ruby 2.7.1
+* Rails 6.0.2.2
 
 ## Front end
 
@@ -24,22 +24,22 @@ https://gorails.com/setup/
 To run the code, with Ruby and Rails already set up in your machine just follow the following steps
 
 ### Installing the dependencies
-...
+```
 bundle install
 yarn install
-...
+```
 
 ### Set up the database
-...
+```
 rails db:migration
-...
+```
 
 
 Modify the file `db/seeds.rb` to fetch the info/files that you want in your initial population of the database
 
-...
+```
 rails db:seed
-...
+```
 
 ### Run it
 
